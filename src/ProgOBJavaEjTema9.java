@@ -24,6 +24,12 @@ public class ProgOBJavaEjTema9 {
         clienteUno.setTelefono("0351-445788");
         clienteUno.setCredito(2584152.45);
         System.out.println("Los datos del cliente 001 son: " +  "Nombre: " + clienteUno.getNombre() + "; Edad: " + clienteUno.getEdad() + "; Telefono: " + clienteUno.getTelefono() + "; Credito en $: " + clienteUno.getCredito());
+        
+        Trabajador trabajadorUno = new Trabajador();
+        trabajadorUno.setNombre("Jose Esuntrabajador");
+        trabajadorUno.setEdad(28);
+        trabajadorUno.setSalario(152000.41);
+        System.out.println("Los datos del trabajador 001 son: " +  "Nombre: " + trabajadorUno.getNombre() + "; Edad: " + trabajadorUno.getEdad() + "; Salario en $: " + trabajadorUno.getSalario());
     }
     
 }
